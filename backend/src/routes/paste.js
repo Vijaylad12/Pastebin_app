@@ -42,10 +42,10 @@ router.post('/pastes', async (req, res) => {
 
     await savePaste(paste);
 
-    const baseUrl = process.env.BASE_URL || 'http://localhost:3001';
+    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
     res.status(201).json({
         id,
-        url: `${baseUrl}/p/${id}`
+        url: `${frontendUrl}/p/${id}`
     });
 });
 
