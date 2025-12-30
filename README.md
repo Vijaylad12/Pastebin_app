@@ -2,6 +2,12 @@
 
 A simple, secure, and modern pastebin application built with React, Node.js, and MongoDB.
 
+## 🚀 Live Demo
+
+Check out the live app here: **[https://pastebin-app-three.vercel.app](https://pastebin-app-three.vercel.app)**
+
+Feel free to create and share pastes! The app is fully functional and ready to use.
+
 ## Features
 - Create text pastes with optional expiration (TTL)
 - Limit maximum views for pastes
